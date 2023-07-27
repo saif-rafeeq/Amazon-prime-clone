@@ -1,0 +1,1922 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: amazon ember;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    /* background-color: #00050D; */
+    padding: 0.1px;
+}
+
+#nav {
+    width: 55%;
+    height: 40px;
+    /* background-color: red; */
+    /* margin: auto; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 40px;
+    margin-left: 23%;
+    position: fixed;
+    z-index: 999;
+    background-color: #00050D;
+    border-radius: 7px;
+    /* top: 1%; */
+}
+
+#nav img {
+    width: 100px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#nav1 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: aqua; */
+    width: 280px;
+    justify-content: center;
+    gap: 1px;
+}
+
+#nav1 #home {
+    /* background-color: blue; */
+    height: 100%;
+    position: relative;
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* overflow: hidden; */
+
+}
+
+#nav1 #store {
+    /* background-color: pink; */
+    height: 100%;
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+#nav1 #categories {
+    /* background-color:green ; */
+    height: 100%;
+    width: 110px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#nav1 .go h4 {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(190, 190, 190);
+    cursor: pointer;
+    /* background-color: red; */
+}
+
+#nav1 .go i {
+    font-size: 16px;
+    color: rgb(190, 190, 190);
+}
+
+#nav #nav2 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: green; */
+
+    width: 260px;
+    justify-content: center;
+    gap: 0px;
+    margin-left: 15px;
+}
+
+#nav2 #search {
+    font-size: 25px;
+    font-weight: 400;
+    color: rgb(190, 190, 190);
+    /* background-color: blue; */
+    height: 100%;
+    width: 43px;
+    padding: 5px 9px;
+    cursor: pointer;
+    margin-left: -40px;
+}
+
+#try {
+    /* background-color: pink; */
+    height: 100%;
+    width: 100px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: rgb(190, 190, 190);
+    margin-left: 5px;
+}
+
+#try h4 {
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+#nav2 #en {
+    /* background-color: green; */
+    display: flex;
+    height: 100%;
+    align-items: center;
+    width: 55px;
+    justify-content: center;
+    color: rgb(190, 190, 190);
+    position: relative;
+}
+
+#nav2 #en h4 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#nav2 #sign img {
+    width: 30px;
+}
+
+#nav2 #sign {
+    width: 50px;
+    cursor: pointer;
+    /* background-color: yellow; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#nav2 .go2 {
+    cursor: pointer;
+}
+
+#nav1 .go:hover h4 {
+    color: rgb(255, 255, 255);
+}
+
+#nav1 .go:hover i {
+    color: rgb(255, 255, 255);
+    transform: rotate(180deg);
+    transition: all ease 0.3s;
+
+}
+
+#nav1 .go:hover {
+    background-color: #171C24;
+}
+
+#nav2 #search:hover {
+    background-color: #171C24;
+}
+
+#nav2 .go2:hover h4 {
+    color: rgb(255, 255, 255);
+}
+
+#nav2 #en:hover i {
+    color: rgb(255, 255, 255);
+    transform: rotate(180deg);
+    transition: all ease 0.3s;
+
+}
+
+#nav2 .go2:hover {
+    background-color: #171C24;
+}
+
+#nav2 #sign:hover {
+    background-color: #171C24;
+}
+
+#page1 {
+    width: 100%;
+    height: 100%;
+    background-color: #00050D;
+    /* background-color: aqua; */
+}
+
+#h-cover {
+    background-color: #171C24;
+    position: absolute;
+    bottom: 100%;
+    /* top: 100%; */
+    width: 85px;
+    height: 105px;
+    cursor: pointer;
+    /* opacity  : 0; */
+    left: 0;
+    border-radius: 4px;
+    /* overflow: hidden; */
+
+
+
+}
+
+#nav1 #h-cover h2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    color: rgb(190, 190, 190);
+    /* background-color: aqua; */
+    padding-left: 3px;
+}
+
+
+#nav1 #h-cover h3 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    color: rgb(190, 190, 190);
+    /* background-color: white; */
+    padding-left: 3px;
+}
+
+#nav1 #h-cover h5 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    color: rgb(190, 190, 190);
+    /* background-color: pink; */
+    padding-left: 3px;
+}
+
+#home:hover #h-cover {
+    top: 100%;
+}
+
+#h-cover #one:hover {
+    color: black;
+    background-color: #FFFFFF;
+}
+
+#h-cover #two:hover {
+    color: black;
+    background-color: #FFFFFF;
+}
+
+#h-cover #three:hover {
+    color: black;
+    background-color: #FFFFFF;
+}
+
+#s-cover {
+    background-color: #171C24;
+    position: absolute;
+    bottom: 100%;
+    /* top: 100%; */
+    width: 85px;
+    height: 105px;
+    cursor: pointer;
+    /* opacity  : 0; */
+    left: 0;
+    border-radius: 4px;
+    /* overflow: hidden; */
+
+
+
+}
+
+#nav1 #s-cover h2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    color: rgb(190, 190, 190);
+    /* background-color: aqua; */
+    padding-left: 3px;
+
+}
+
+
+#nav1 #s-cover h3 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    color: rgb(190, 190, 190);
+    /* background-color: white; */
+    padding-left: 3px;
+}
+
+#nav1 #s-cover h5 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    color: rgb(190, 190, 190);
+    /* background-color: pink; */
+    padding-left: 3px;
+}
+
+
+#store:hover #s-cover {
+    top: 100%;
+}
+
+
+#s-cover #one:hover {
+    color: #000;
+    background-color: #FFFFFF;
+}
+
+#s-cover #two:hover {
+    color: #000;
+    background-color: #FFFFFF;
+
+}
+
+#s-cover #three:hover {
+    color: #000;
+    background-color: #FFFFFF;
+}
+
+#c-cover {
+    background-color: #171C24;
+    position: absolute;
+    bottom: 100%;
+    /* top: 100%; */
+    width: 730px;
+    height: 280px;
+    cursor: pointer;
+    /* opacity  : 0; */
+    /* left: 0; */
+    border-radius: 4px;
+    /* overflow: hidden; */
+    left: -304px;
+}
+
+#c-cover #cover-nav {
+    display: flex;
+    /* background-color : red; */
+    gap: 400px;
+    padding: 10px 0px 0px 30px;
+}
+
+#c-cover #cover-nav h1 {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+#c-cover #cover-div {
+    width: 100%;
+    height: 88%;
+    /* background-color: aqua; */
+    display: flex;
+}
+
+#cover-first {
+    height: 100%;
+    /* background-color: black; */
+    width: 28.5%;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+#cover-first h6 {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(190, 190, 190);
+    /* background-color: salmon; */
+    line-height: 40px;
+    padding-left: 10px;
+    /* width: 90%; */
+    /* height: 30px; */
+}
+
+#cover-first #one {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#cover-first #two {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#cover-first #three {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#cover-first #four {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#cover-first #five {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#cover-first #six {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#categories:hover #c-cover {
+    top: 100%;
+}
+
+#cover-first #one:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#cover-first #two:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#cover-first #three:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#cover-first #four:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#cover-first #five:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#cover-first #six:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#cover-second {
+    height: 100%;
+    /* background-color:blue; */
+    width: 29%;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+#cover-second h6 {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(190, 190, 190);
+    /* background-color: salmon; */
+    line-height: 40px;
+    padding-left: 10px;
+    /* width: 90%; */
+    /* height: 30px; */
+}
+
+#cover-second #one {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#cover-second #two {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#cover-second #three {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#cover-second #four {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#cover-second #five {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#cover-second #six {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#cover-second #one:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#cover-second #two:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#cover-second #three:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#cover-second #four:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#cover-second #five:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#cover-second #six:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+#cover-theird {
+    height: 100%;
+    /* background-color:blue; */
+    width: 14%;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+
+#cover-theird h6 {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(190, 190, 190);
+    /* background-color: salmon; */
+    line-height: 40px;
+    padding-left: 10px;
+    /* width: 90%; */
+    /* height: 30px; */
+}
+
+#cover-theird #one {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#cover-theird #two {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#cover-theird #three {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#cover-theird #four {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#cover-theird #five {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#cover-theird #six {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#cover-theird #one:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#cover-theird #two:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#cover-theird #three:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#cover-theird #four:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#cover-theird #five:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#cover-theird #six:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#cover-fourth {
+    height: 100%;
+    /* background-color:pink; */
+    width: 14%;
+    margin-left: 12px;
+    margin-top: 5px;
+}
+
+
+#cover-fourth h6 {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(190, 190, 190);
+    /* background-color: salmon; */
+    line-height: 40px;
+    padding-left: 10px;
+    /* width: 90%; */
+    /* height: 30px; */
+}
+
+#cover-fourth #one {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#cover-fourth #two {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#cover-fourth #three {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#cover-fourth #four {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#cover-fourth #five {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#cover-fourth #six {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#cover-fourth #one:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#cover-fourth #two:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#cover-fourth #three:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#cover-fourth #four:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#cover-fourth #five:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#cover-fourth #six:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#e-cover {
+    background-color: #171C24;
+    position: absolute;
+    bottom: 100%;
+    /* top: 100%; */
+    width: 750px;
+    height: 280px;
+    cursor: pointer;
+    border-radius: 4px;
+    right: -54px;
+    display: flex;
+}
+
+#e-cover-first h6 {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(190, 190, 190);
+    line-height: 33px;
+    padding-left: 10px;
+}
+
+#e-cover-first {
+    /* background-color: black; */
+    width: 175px;
+    padding-top: 8.5px;
+    margin-left: 14px;
+
+}
+
+
+#e-cover-first #one {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#e-cover-first #two {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#e-cover-first #three {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#e-cover-first #four {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#e-cover-first #five {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#e-cover-first #six {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#e-cover-first #seven {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#e-cover-first #eight {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#en:hover #e-cover {
+    top: 100%;
+}
+
+#e-cover-first #one:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#e-cover-first #two:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#e-cover-first #three:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#e-cover-first #four:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#e-cover-first #five:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#e-cover-first #six:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#e-cover-first #seven:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#e-cover-first #eight:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#e-cover-second h6 {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(190, 190, 190);
+    line-height: 33px;
+    padding-left: 10px;
+}
+
+#e-cover-second {
+    /* background-color: blue; */
+    width: 167px;
+    padding-top: 8.5px;
+    margin-left: 30px;
+
+}
+
+
+#e-cover-second #one {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#e-cover-second #two {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#e-cover-second #three {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#e-cover-second #four {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#e-cover-second #five {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#e-cover-second #six {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#e-cover-second #seven {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#e-cover-second #eight {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#e-cover-second #one:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#e-cover-second #two:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#e-cover-second #three:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#e-cover-second #four:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#e-cover-second #five:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#e-cover-second #six:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#e-cover-second #seven:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#e-cover-second #eight:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+#e-cover-theird h6 {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(190, 190, 190);
+    line-height: 33px;
+    padding-left: 10px;
+    text-transform: capitalize;
+}
+
+#e-cover-theird {
+    /* background-color: pink; */
+    width: 167px;
+    padding-top: 8.5px;
+    margin-left: 10px;
+
+}
+
+
+#e-cover-theird #one {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#e-cover-theird #two {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#e-cover-theird #three {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#e-cover-theird #four {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#e-cover-theird #five {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#e-cover-theird #six {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#e-cover-theird #seven {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#e-cover-theird #eight {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#e-cover-theird #one:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#e-cover-theird #two:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#e-cover-theird #three:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#e-cover-theird #four:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#e-cover-theird #five:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#e-cover-theird #six:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#e-cover-theird #seven:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#e-cover-theird #eight:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+#e-cover-fourth h6 {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(190, 190, 190);
+    line-height: 33px;
+    padding-left: 10px;
+    text-transform: capitalize;
+}
+
+#e-cover-fourth {
+    /* background-color: greenyellow; */
+    width: 160px;
+    padding-top: 8.5px;
+    margin-left: 15px;
+
+}
+
+
+#e-cover-fourth #one {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#e-cover-fourth #two {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#e-cover-fourth #three {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#e-cover-fourth #four {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#e-cover-fourth #five {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#e-cover-fourth #six {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#e-cover-fourth #seven {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#e-cover-fourth #eight {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#e-cover-fourth #one:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#e-cover-fourth #two:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#e-cover-fourth #three:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#e-cover-fourth #four:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#e-cover-fourth #five:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#e-cover-fourth #six:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#e-cover-fourth #seven:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#e-cover-fourth #eight:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+#sign-cover {
+    background-color: #171C24;
+    position: absolute;
+    bottom: 100%;
+    left: -92px;
+    /* top: 100%; */
+    width: 165px;
+    height: 125px;
+    cursor: pointer;
+    border-radius: 4px;
+    right: 0px;
+    padding: 7px 13px 7px 13px;
+
+}
+
+#sign-cover h6 {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(190, 190, 190);
+    line-height: 37px;
+    padding-left: 7px;
+    /* background-color: red; */
+}
+
+
+#sign-cover #one {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#sign-cover #two {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#sign-cover #three {
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+#nav2 #sign:hover #sign-cover {
+    top: 100%;
+}
+
+#sign-cover #one:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#sign-cover #two:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#sign-cover #three:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+#page1 #tv {
+    display: inline-block;
+    /* background-color: red; */
+    margin-top: 50px;
+    margin-left: 45px;
+}
+
+#page1 #tv h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+#page1 #center {
+    width: 96%;
+    margin: auto;
+    margin-top: 10px;
+    height: 66%;
+    border-radius: 7px;
+    /* background-color: aqua; */
+    background-image: url(/farxi.jpeg);
+    background-size: cover;
+    background-position: top;
+    cursor: pointer;
+    position: relative;
+    z-index: 9;
+}
+
+#center-left {
+    width: 30%;
+    height: 100%;
+    /* background-color: slategray; */
+    padding-top: 100px;
+    padding-left: 30px;
+    /* background: linear-gradient(to bottom, #0408103a,#0408103f); */
+}
+
+#center-left h2 {
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+#center-left img {
+    width: 335px;
+    margin-top: 15px;
+}
+
+#left-center {
+    display: flex;
+    width: 260px;
+    height: 50px;
+    /* background-color: burlywood; */
+    align-items: center;
+    gap: 4px;
+    margin-top: 30px;
+    /* overflow: hidden; */
+    /* z-index: 99; */
+}
+
+#left-center img {
+    width: 16px;
+    height: 16px;
+    margin-bottom: 13px;
+
+}
+
+#left-center h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+#left-center h4 {
+    font-size: 12px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    border: 1px solid #292f33;
+    padding: 2px 3px;
+    border-radius: 5px;
+    background-color: #292f33;
+    line-height: 12px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+#center #btn {
+    width: 260px;
+    height: 50px;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#center #btn #but1 {
+    padding: 15px 22px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+#btn #but1:hover {
+    scale: 1.1;
+    transition: all ease-out 0.2s;
+}
+
+#btn #plus {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+}
+
+#btn #plus h2 {
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: -5px;
+}
+
+#btn #plus:hover {
+    background-color: rgb(255, 255, 255);
+    scale: 1.11;
+}
+
+#btn #plus:hover h2 {
+    color: black;
+}
+
+#plus #plus-cover {
+    width: 75px;
+    height: 23px;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.2);
+    left: -20px;
+    /* bottom: 10000%; */
+    border-radius: 20px;
+    margin-top: -2px;
+    opacity: 0;
+
+
+}
+
+#plus #plus-cover h6 {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 2.5px;
+}
+
+#btn #plus:hover #plus-cover {
+    opacity: 1;
+    transition: all ease 0.2s;
+
+}
+
+#center-overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* background-color: red; */
+    background: linear-gradient(to left, transparent, transparent, #01060e11, #01060e85, #01060ebe);
+}
+
+#center #foot {
+    width: 350px;
+    height: 50px;
+    /* background-color: red;    */
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+}
+
+#center #foot h1 {
+    font-size: 45px;
+    color: rgba(255, 255, 255, 0.2);
+    margin-left: 30px;
+    display: inline-block;
+
+}
+
+#center #foot h1 span {
+    color: rgb(255, 255, 255);
+}
+
+
+#center-overlay #right-arrow span {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    position: absolute;
+    right: -27px;
+    top: 45%;
+    opacity: 0;
+
+}
+
+#center-overlay:hover #right-arrow span {
+    opacity: 1;
+
+}
+
+
+#page1 #bottom-text {
+    display: flex;
+    width: 500px;
+    height: 40px;
+    /* background-color: red; */
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+#page1 #bottom-text span {
+    color: #00D1FF;
+    margin-right: 8px;
+    /* font-size: 20px; */
+}
+
+#page1 #bottom-text h3 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#page1 #bottom-text h4 a {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 23px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#page2 {
+    width: 100%;
+    height: 470%;
+    background-color: #00050D;
+    /* overflow: hidden; */
+    /* background-color: red; */
+}
+
+ #raper {
+    width: 96%;
+    /* height: 200%; */
+    /* background-color: aqua; */
+    margin: auto;
+    margin-top: -50px;
+    /* overflow: hidden; */
+}
+
+ .sht-box {
+    width: 24%;
+    height: 26%;
+    /* background-color: gray; */
+    border-radius: 10px;
+    /* background-image: url(/mirzapur.jpg); */
+    /* background-size: cover; */
+    /* background-position: center; */
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    margin-right: 6.5px;
+    /* margin-top: 20px; */
+}
+.sht-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+ .sht-cover {
+    width: 311px;
+    height: 152px;
+    background-color: #000000;
+    position: absolute;
+    /* bottom: -151px; */
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    opacity: 0;
+    bottom: 150%;
+    /* background-color: red; */
+    /* border-bottom: 1px solid white; */
+}
+.sht-box:hover img{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+ .sht-box:hover{
+    scale: 1.2;
+    transition: all ease 0.4s;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    z-index: 99;
+}
+ .sht-box:hover .sht-cover{
+    bottom: -150px;
+    /* transition: all ease 0.5s; */
+    opacity: 1;
+ }
+.sht-cover .topper {
+    width: 100%;
+    height: 20px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding-left: 10px;
+    margin-top: 6px;
+}
+
+.sht-cover .topper img {
+    width: 12px;
+    height: 12px;
+}
+
+.sht-cover .topper h3 {
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+
+}
+
+.sht-cover .middle {
+    width: 100%;
+    height: 35px;
+    /* background-color: red; */
+    margin-top: 4px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sht-cover .middle h3 {
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.sht-cover .middle .pluss {
+    width: 32px;
+    height: 32px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+}
+
+.sht-cover .middle .pluss h4 {
+    font-size: 32px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: -3px;
+    /* background-color: white; */
+    color: rgb(255, 255, 255);
+}
+
+.sht-cover .middle .pluss:hover {
+    background-color: rgb(255, 255, 255);
+    scale: 1.1;
+}
+
+.sht-cover .middle .pluss:hover h4 {
+    color: black;
+}
+
+.pluss .pluss-cover {
+    width: 60px;
+    height: 23px;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.2);
+    left: -15px;
+    /* bottom: 10000%; */
+    border-radius: 20px;
+    margin-top: -2px;
+    opacity: 0;
+
+
+}
+
+.pluss .pluss-cover h6 {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 2.5px;
+}
+
+.pluss:hover .pluss-cover {
+    opacity: 1;
+    transition: all ease 0.2s;
+}
+
+.sht-cover .middle .watch {
+    width: 32px;
+    height: 32px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.sht-cover .middle .watch i {
+    font-size: 22px;
+    font-weight: 100;
+    /* text-align: center; */
+    /* margin-top: -10px; */
+    /* background-color: white; */
+    width: 30px;
+    height: 20px;
+    margin-left: 5px;
+    transform: translate(0,-10%);
+    color: rgb(255, 255, 255);
+
+}
+
+.sht-cover .middle .watch:hover {
+    background-color: rgb(255, 255, 255);
+    scale: 1.1;
+}
+
+.sht-cover .middle .watch:hover i {
+    color: black;
+}
+
+.middle .watch .watch-cover {
+    width: 80px;
+    height: 23px;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.2);
+    left: -25px;
+    /* bottom: 10000%; */
+    border-radius: 20px;
+    /* margin-top: -2px; */
+    opacity: 0;
+    margin-top: 60px;
+
+
+}
+
+.watch .watch-cover h6 {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 3.5px;
+}
+
+.watch:hover .watch-cover {
+    opacity: 1;
+    transition: all ease 0.2s;
+}
+.middle .both{
+    display: flex;
+    gap: 5px;
+}
+.sht-cover .last-second{
+    width: 100px;
+    height: 25px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    gap: 12px;
+}
+.sht-cover .last-second h5{
+    font-size: 12px;
+    color: rgb(190, 190, 190);
+    font-weight: 700;
+}
+.sht-cover .last-second h6{
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    border: 1px solid #292f33;
+    padding: 2px 3px;
+    border-radius: 5px;
+    background-color: #292f33;
+    line-height: 12px;
+    /* margin-left: 10px; */
+    /* margin-top: 3px; */
+    /* width: 100px; */
+}
+.sht-cover .last-one{
+    width: 100%;
+    height: 65px;
+    /* background-color:red; */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 10px;
+}
+.sht-cover .last-one h4{
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(190, 190, 190);
+    line-height: 15px;
+    text-align: start;
+    /* padding: 0px 10px 0px 0px; */
+    /* background-color: red; */
+    width: 95%;
+}
+
+/* .sht-box:nth-child(5){
+    margin-top: 50px;
+} */
+
+
+ .text2 {
+    display: flex;
+    width: 500px;
+    height: 40px;
+    /* background-color: red; */
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 6px;
+
+}
+
+ .text2 span {
+    color: #00D1FF;
+    margin-right: 8px;
+    /* font-size: 20px; */
+}
+
+ .text2 h3 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.text2 h4 a {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 23px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+
+
+.text3 {
+    display: flex;
+    width: 500px;
+    height: 40px;
+    /* background-color: red; */
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 6px;
+
+}
+
+ .text3 span {
+    color:#FFCC00;
+    margin-right: 8px;
+    /* font-size: 20px; */
+}
+
+ .text3 h3 {
+    color: #FFCC00;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.text3 h4 a {
+    color:#FFCC00;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 23px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.sht-box #episode{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+
+    position: absolute;
+    bottom: -20px;
+    left: 3px;
+
+    /* z-index: 999; */
+}
+.sht-box #episode i{
+    color: #FFCC00;
+}
+
+.sht-cover .topper i{
+    color: #FFCC00;
+    font-size: 15px;
+}
+
+
+.text4 {
+    display: flex;
+    width: 500px;
+    height: 40px;
+    /* background-color: red; */
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 6px;
+
+}
+
+ .text4 span {
+    color:#FFCC00;
+    margin-right: 8px;
+    /* font-size: 20px; */
+}
+
+ .text4 h3 {
+    color: #FFCC00;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.text4 h4 a {
+    color:#FFCC00;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 23px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#prime{
+    width: 120px;
+    margin-top: 300px;
+    margin-left: 45%;
+    /* background-color: red; */
+}
+#footer-last{
+    width: 100%;
+    height: 50px;
+    /* background-color: cyan; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+#footer-last h5{
+    color: #79B8CE;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#footer-last h6{
+    color: #81959F;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
